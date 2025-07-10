@@ -19,26 +19,18 @@ A RESTful API backend for the **Minimal Library Management System**, built with 
 
 ## 🧱 Technologies Used
 
-| Layer       | Stack                        |
-|-------------|------------------------------|
-| Server      | Node.js + Express.js         |
-| Language    | TypeScript                   |
-| Database    | MongoDB + Mongoose           |
-| Tools       | dotenv, cors, express-async-handler, etc |
+| Layer    | Stack                                    |
+| -------- | ---------------------------------------- |
+| Server   | Node.js + Express.js                     |
+| Language | TypeScript                               |
+| Database | MongoDB + Mongoose                       |
+| Tools    | dotenv, cors, express-async-handler, etc |
 
 ---
 
 ## 📁 Folder Structure
 
-src/
-├── controllers/         # Logic for each route
-├── models/              # Mongoose schemas
-├── routes/              # Express route handlers
-├── config/              # DB & environment setup
-├── utils/               # Utility functions
-├── middlewares/         # Error handling middleware
-├── app.ts               # Express app setup
-└── server.ts            # Entry point
+<pre> ### 📁 Folder Structure ```text src/ ├── controllers/ # Logic for each route ├── models/ # Mongoose schemas ├── routes/ # Express route handlers ├── config/ # DB & environment setup ├── utils/ # Utility functions ├── middlewares/ # Error handling middleware ├── app.ts # Express app setup └── server.ts # Entry point ``` </pre>
 
 ---
 
@@ -123,3 +115,4 @@ You can import a Postman collection to test all endpoints manually.
 👨‍💻 Contributors
 Mahabub-Alam
 
+```
