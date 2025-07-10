@@ -1,3 +1,5 @@
+import { Books } from "./Book";
+
 const mongoose = require('mongoose');
 
 const borrowSchema = new mongoose.Schema({
